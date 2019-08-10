@@ -1,9 +1,8 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
+import Shell from './shell';
 
-class Shell extends React.Component {
-    render() {
-        return <div>Dummy Component</div>;
-    }
-}
-
-export default Shell;
+ReactDOM.render(
+    <Shell config={[{header: { visible: true, title: 'Title' }}]} />,
+    document.getElementById('app')
+  );
