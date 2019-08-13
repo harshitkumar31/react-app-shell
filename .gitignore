@@ -1,4 +1,4 @@
 node_modules
 dist
 .DS_Store
-react-app-shell.*.tgz
+react-app-shell.*
