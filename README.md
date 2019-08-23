@@ -8,7 +8,7 @@
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center"> Wraps your app with a configurable header & footer + other utilities
     <br> 
 </p>
 
